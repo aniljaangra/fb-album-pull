@@ -7,9 +7,6 @@ const express = require("express"),
 
 //Configure DB
 require("./dao-config");
-var b = require("./a");
-console.log(b.a)
-b.change()
-console.log(require("./a").a)
 
-// require("./fb-controller").start("awakeningpeople");
+//Start downloading
+require("./fb-controller").start("awakeningpeople");
