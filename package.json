@@ -1,0 +1,23 @@
+{
+  "name": "facebook-album",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "foo" : "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "express": "^4.14.0",
+    "fb": "^1.1.1",
+    "lodash": "^4.17.3",
+    "mongoose": "^4.7.4",
+    "node-fs-extra": "^0.8.1",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
